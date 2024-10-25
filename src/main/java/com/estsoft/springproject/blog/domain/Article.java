@@ -43,7 +43,7 @@ public class Article {
     }
 
     public ArticleResponse convert() {
-        return new ArticleResponse(id, title, content);
+        return new ArticleResponse(id, title, content, createdAt, updatedAt);
     }
 
     public void update(String title, String content) {
